@@ -9,6 +9,6 @@ set LNK_DIR=/LIBPATH:"D:\Libs\ogre\sdk\lib"
 
 pushd ..\build
 
-    cl %CFLAGS% %INC_DIR% ..\src\main.cpp /Fe.\game /link %LNK_DIR% %LIBS%
+    cl %CFLAGS% %INC_DIR% ..\src\*.cpp /Fe.\game /link %LNK_DIR% %LIBS%
 
 popd

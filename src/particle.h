@@ -27,6 +27,7 @@ namespace Phy
         real getInverseMass() const;
         void setMass(const real mass);
         real getMass() const;
+        bool hasFiniteMass() const;
     };
 
 

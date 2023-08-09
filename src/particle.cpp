@@ -63,4 +63,11 @@ namespace Phy
             return ((real)1.0)/inverseMass;
         }
     }
+
+
+    bool Particle::hasFiniteMass() const
+    {
+        return inverseMass >= 0.0f;
+
+    }
 }

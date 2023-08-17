@@ -257,6 +257,7 @@ private:
 
 int main(int argc, char *argv[])
 {
+    
 //! [constructor]
     OgreBites::ApplicationContext ctx("OgrePhysics");
     ctx.initApp();

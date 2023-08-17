@@ -506,6 +506,12 @@ namespace Phy
                 vector.z * data[10]
             );
         }
+        
+        // gets a vector representing one axis (one column) in the matrix
+        Vector3 getAxisVector(int i) const
+        {
+            return Vector3(data[i], data[i+4], data[i+8]);
+        }
 
     };
 
